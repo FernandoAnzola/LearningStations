@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LearningStations</string>
+    <string name="action_settings">Settings</string>
+    <string name="learning_stations">Learning Stations</string>
+    <string name="start_main">Continuar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="user">Nombre de usuario</string>
+    <string name="pass">Documento</string>
+    <string name="instruccion">Para ingresar a la aplicacion ingrese el nombre y numero de documento</string>
+	<string name="instruccion1" >seleccione el modo de entrada</string>
+	<string name="descicon">uptc </string>
+	<string name="descvisita">Visitante</string>
+	<string name="descjuega">jugador</string>
+	<string name="progreso">progreso</string>
+	<string name="irmapa">mapa</string>
+	<string name="salircam">salir</string>
+	<string name="startcam">Activar Camara</string>
+	<string name="stopcam">Desactivar Camara</string>
+</resources>

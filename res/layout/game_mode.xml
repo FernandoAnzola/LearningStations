@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+     >
+    
+
+     <TextView
+        android:id="@+id/nameapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/learning_stations"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/iconuptc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icon_uptc" 
+        android:contentDescription="@string/descicon"/>
+
+    <ImageButton
+        android:id="@+id/jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameapp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="128dp"
+        android:src="@drawable/icon_uptc"        
+        android:contentDescription="@string/descjuega"
+        />
+
+    <TextView
+        android:id="@+id/instruccion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/nameapp"
+        android:layout_marginBottom="18dp"
+        android:text="@string/instruccion1"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/visitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/instruccion1"
+        android:layout_alignTop="@+id/jugar"
+        android:src="@drawable/icon_uptc"        
+        android:contentDescription="@string/descvisita"
+        android:onClick="visitar"/>
+
+    <TextView
+        android:id="@+id/modevisitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visitar"
+        android:layout_below="@+id/visitar"
+        android:text="@string/descvisita"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/modejuega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/modevisitante"
+        android:layout_alignBottom="@+id/modevisitante"
+        android:layout_alignLeft="@+id/jugar"
+        android:text="@string/descjuega"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</RelativeLayout>

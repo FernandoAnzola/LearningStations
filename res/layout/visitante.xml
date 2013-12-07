@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:background="@drawable/logo"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/nameapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/learning_stations"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/iconuptc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/icon_uptc"
+        android:contentDescription="@string/descicon" />
+
+       <TextView
+           android:id="@+id/descvisita"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/nameapp"
+           android:layout_alignBottom="@+id/nameapp"
+           android:layout_alignParentRight="true"
+           android:text="@string/descvisita"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+
+       <Button
+           android:id="@+id/irmapa"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignRight="@+id/descvisita"
+           android:layout_marginBottom="24dp"
+           android:text="@string/start_main" 
+           android:onClick="ircamara"/>
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/nameapp"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="23dp"
+           android:src="@drawable/natureimage5" />
+
+</RelativeLayout>

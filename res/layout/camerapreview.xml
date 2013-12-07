@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 	android:background="@drawable/logo"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/irmapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/irmapa"
+        android:onClick="regvisita" />
+
+     
+    
+    <ImageView
+        android:id="@+id/iconuptc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descicon"
+        android:src="@drawable/icon_uptc" />
+
+    <TextView
+        android:id="@+id/nameapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iconuptc"
+        android:layout_marginLeft="92dp"
+        android:layout_toRightOf="@+id/iconuptc"
+        android:text="@string/learning_stations"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/salircam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/salircam" 
+        android:onClick="salir"/>
+
+    <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salircam"
+        android:layout_below="@+id/irmapa"
+        android:layout_toLeftOf="@+id/irmapa"
+        android:layout_toRightOf="@+id/iconuptc" />
+
+    <Button
+        android:id="@+id/startcamerapreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/surfaceView1"
+        android:layout_toRightOf="@+id/iconuptc"
+        android:text="@string/startcam" 
+        android:onClick="camara" />
+
+    <Button
+        android:id="@+id/stopcamerapreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/startcamerapreview"
+        android:text="@string/stopcam" />
+
+</RelativeLayout>
