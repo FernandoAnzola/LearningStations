@@ -24,25 +24,18 @@ public final class R {
         public static final int arrow_right_enabled=0x7f020004;
         public static final int ic_launcher=0x7f020005;
         public static final int icon_uptc=0x7f020006;
-        public static final int image_border=0x7f020007;
-        public static final int logo=0x7f020008;
-        public static final int natureimage1=0x7f020009;
-        public static final int natureimage10=0x7f02000a;
-        public static final int natureimage11=0x7f02000b;
-        public static final int natureimage12=0x7f02000c;
-        public static final int natureimage13=0x7f02000d;
-        public static final int natureimage14=0x7f02000e;
-        public static final int natureimage15=0x7f02000f;
-        public static final int natureimage2=0x7f020010;
-        public static final int natureimage3=0x7f020011;
-        public static final int natureimage4=0x7f020012;
-        public static final int natureimage5=0x7f020013;
-        public static final int natureimage6=0x7f020014;
-        public static final int natureimage7=0x7f020015;
-        public static final int natureimage8=0x7f020016;
-        public static final int natureimage9=0x7f020017;
-        public static final int selected_image_border=0x7f020018;
-        public static final int splash=0x7f020019;
+        public static final int icon_visit=0x7f020007;
+        public static final int image_border=0x7f020008;
+        public static final int instruccion1=0x7f020009;
+        public static final int instruccion2=0x7f02000a;
+        public static final int instruccion3=0x7f02000b;
+        public static final int instruccion4=0x7f02000c;
+        public static final int logo=0x7f02000d;
+        public static final int mapa=0x7f02000e;
+        public static final int mapa1=0x7f02000f;
+        public static final int selected_image_border=0x7f020010;
+        public static final int splash=0x7f020011;
+        public static final int user=0x7f020012;
     }
     public static final class id {
         public static final int TextViewpass=0x7f070014;
@@ -55,12 +48,12 @@ public final class R {
         public static final int iconuptc=0x7f070001;
         public static final int imageView1=0x7f07001b;
         public static final int instruccion=0x7f070019;
-        public static final int instruccion1=0x7f070010;
+        public static final int instruccion1=0x7f070012;
         public static final int irmapa=0x7f07000a;
-        public static final int jugar=0x7f07000f;
+        public static final int jugar=0x7f070011;
         public static final int left_arrow_imageview=0x7f070006;
-        public static final int modejuega=0x7f070013;
-        public static final int modevisitante=0x7f070012;
+        public static final int modejuega=0x7f07000f;
+        public static final int modevisitante=0x7f070010;
         public static final int nameapp=0x7f070000;
         public static final int progreso=0x7f070009;
         public static final int progress=0x7f070002;
@@ -72,7 +65,7 @@ public final class R {
         public static final int stopcamerapreview=0x7f07000e;
         public static final int surfaceView1=0x7f07000c;
         public static final int textViewuser=0x7f070018;
-        public static final int visitar=0x7f070011;
+        public static final int visitar=0x7f070013;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -116,5 +109,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int color=0x7f060002;
     }
 }

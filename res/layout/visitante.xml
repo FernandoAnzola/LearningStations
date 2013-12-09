@@ -12,6 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="@string/learning_stations"
+      
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
@@ -20,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/icon_uptc"
+        android:src="@drawable/app_icon"
         android:contentDescription="@string/descicon" />
 
        <TextView
@@ -31,6 +32,7 @@
            android:layout_alignBottom="@+id/nameapp"
            android:layout_alignParentRight="true"
            android:text="@string/descvisita"
+    
            android:textAppearance="?android:attr/textAppearanceSmall" />
 
        <Button
@@ -38,18 +40,17 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_alignParentBottom="true"
-           android:layout_alignRight="@+id/descvisita"
-           android:layout_marginBottom="24dp"
-           android:text="@string/start_main" 
-           android:onClick="ircamara"/>
+           android:layout_alignParentRight="true"
+           android:onClick="ircamara"
+            
+           android:text="@string/start_main" />
 
        <ImageView
            android:id="@+id/imageView1"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:layout_alignLeft="@+id/nameapp"
-           android:layout_centerVertical="true"
-           android:layout_marginLeft="23dp"
-           android:src="@drawable/natureimage5" />
+           android:layout_above="@+id/irmapa"
+           android:layout_below="@+id/nameapp"
+           android:src="@drawable/mapa1" />
 
 </RelativeLayout>

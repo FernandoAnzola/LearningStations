@@ -12,6 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="@string/learning_stations"
+         
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
@@ -20,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/icon_uptc" 
+        android:src="@drawable/app_icon" 
         android:contentDescription="@string/descicon"/>
 
     <TextView
@@ -29,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editTextuser"
         android:layout_below="@+id/editTextuser"
+    
         android:text="@string/pass" />
 
     <Button
@@ -39,6 +41,7 @@
         android:layout_marginLeft="70dp"
         android:layout_toRightOf="@+id/textViewuser"
         android:text="@string/cancelar" 
+    
         android:onClick="alertCancela"/>
 
     <EditText
@@ -56,16 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editTextuser"
         android:layout_below="@+id/iconuptc"
+         
         android:text="@string/user" />
-
-    <TextView
-        android:id="@+id/instruccion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/start"
-        android:layout_below="@+id/start"
-        android:text="@string/instruccion"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <EditText
         android:id="@+id/editTextuser"
@@ -85,6 +80,17 @@
         android:layout_alignLeft="@+id/editTextpass"
         android:layout_alignRight="@+id/textViewuser"
         android:onClick="gamemode"
+    
         android:text="@string/start_main" />
+
+    <TextView
+        android:id="@+id/instruccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cancel"
+        android:layout_centerHorizontal="true"
+        android:text="@string/instruccion"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+ />
 
 </RelativeLayout>

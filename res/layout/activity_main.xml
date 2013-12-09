@@ -12,6 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="@string/learning_stations"
+      
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
@@ -20,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/icon_uptc"
+        android:src="@drawable/app_icon"
         android:contentDescription="@string/descicon" />
 
     <ProgressBar
@@ -84,6 +85,7 @@
         android:layout_alignTop="@+id/progress"
         android:layout_marginRight="20dp"
         android:text="@string/start_main"
+         
         android:onClick="irLogin" />
 
     <TextView
@@ -93,6 +95,7 @@
         android:layout_alignBottom="@+id/start"
         android:layout_alignLeft="@+id/progress"
         android:text="@string/progreso"
+     
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>

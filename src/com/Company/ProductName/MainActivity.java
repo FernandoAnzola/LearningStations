@@ -216,21 +216,10 @@ private void changeBorderForSelectedImage(int selectedItemPos) {
 private void getDrawablesList() {
 
 	drawables = new ArrayList<Drawable>();
-	drawables.add(getResources().getDrawable(R.drawable.natureimage1));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage2));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage3));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage4));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage5));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage6));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage7));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage8));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage9));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage10));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage11));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage12));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage13));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage14));
-	drawables.add(getResources().getDrawable(R.drawable.natureimage15));
+	drawables.add(getResources().getDrawable(R.drawable.instruccion1));
+	drawables.add(getResources().getDrawable(R.drawable.instruccion2));
+	drawables.add(getResources().getDrawable(R.drawable.instruccion3));
+	drawables.add(getResources().getDrawable(R.drawable.instruccion4));
 
 }
 

@@ -13,6 +13,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:text="@string/irmapa"
+       
         android:onClick="regvisita" />
 
      
@@ -24,17 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:contentDescription="@string/descicon"
-        android:src="@drawable/icon_uptc" />
-
-    <TextView
-        android:id="@+id/nameapp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/iconuptc"
-        android:layout_marginLeft="92dp"
-        android:layout_toRightOf="@+id/iconuptc"
-        android:text="@string/learning_stations"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:src="@drawable/app_icon" />
 
     <Button
         android:id="@+id/salircam"
@@ -43,6 +34,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:text="@string/salircam" 
+         
         android:onClick="salir"/>
 
     <SurfaceView
@@ -69,6 +61,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/startcamerapreview"
+         
         android:text="@string/stopcam" />
+
+    <TextView
+        android:id="@+id/nameapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/irmapa"
+        android:layout_alignBottom="@+id/irmapa"
+        android:layout_centerHorizontal="true"
+        android:text="@string/learning_stations"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
